@@ -4,7 +4,10 @@
 This repository contains a Python-based system for visual quality control in dynamic environments. It uses machine learning and image processing techniques for real-time object tracking and classification.
 
 ## Files
-- `scripts/calibration.py`: Script for calibrating and rectification the cameras.
+- `data/`: Including images used for calibrating and rectifying the cameras, data for training model, and video for tracking and predicting objects.
+- `model/`: The directory where the trained model saved
+- `parameters/`: The directory where the calibration and rectification parameters saved.
+- `scripts/calibration.py`: Script for calibrating and rectifying the cameras.
 - `scripts/classification.py`: Implements SVM algorithms to train a model.
 - `scripts/model_test.py`: Used for testing the trained SVM model.
 - `scripts/track_objects.py`: Track and predict objects in a dynamic environment.
