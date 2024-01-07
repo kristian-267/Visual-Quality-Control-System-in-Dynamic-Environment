@@ -10,7 +10,7 @@ This repository contains a Python-based system for visual quality control in dyn
 - `scripts/calibration.py`: Script for calibrating and rectifying the cameras.
 - `scripts/classification.py`: Implements SVM algorithms to train a model.
 - `scripts/model_test.py`: Used for testing the trained SVM model.
-- `scripts/track_objects.py`: Track and predict objects in a dynamic environment.
+- `scripts/track_objects.py`: Implements Dense Optical Flow, Kalman Filter and SVM model to track and classify objects in a dynamic environment.
 
 ## Requirements
 - Python 3.10
